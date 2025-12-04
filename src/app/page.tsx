@@ -2,6 +2,7 @@ import { NavBar } from "@/src/components/shared";
 import { Main } from "@/src/sections";
 import { About } from "@/src/sections";
 import { Services } from "@/src/sections";
+import { WhyUs } from "@/src/sections";
 
 export default function MainPage() {
   return (
@@ -12,6 +13,7 @@ export default function MainPage() {
         <About />
         <Services />
       </div>
+      <WhyUs />
     </>
   );
 }

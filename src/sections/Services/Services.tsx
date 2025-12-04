@@ -43,7 +43,7 @@ const mockInfo = [
 
 export function Services() {
   return (
-    <div className="flex flex-col h-screen w-full items-center justify-center">
+    <div className="flex flex-col h-screen w-full items-center justify-center gap-4">
       <SectionTitle text="Что мы делаем" />
       <h2>Наши услуги</h2>
       <p>
